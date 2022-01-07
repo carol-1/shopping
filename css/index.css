@@ -1,0 +1,294 @@
+/* 这个文件里放首页的样式 */
+
+
+/* 声明字体样式 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    height: 455px;
+    width: 721px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.newsflash {
+    height: 455px;
+    width: 250px;
+}
+
+.arrow-1,
+.arrow-2 {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 40px;
+    background-color: rgb(0, 0, 0, .4);
+    margin-top: -20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 3;
+}
+
+.arrow-2 {
+    right: 0;
+}
+
+.arrow-2::after {
+    content: "\e920";
+}
+
+.arrow-1::after {
+    content: "\e91f";
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: red;
+}
+
+.circle li:hover {
+    background-color: #fff;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-top: none;
+    overflow: hidden;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.news-dd ul li {
+    height: 23px;
+}
+
+.lifeservice ul li {
+    height: 73px;
+    width: 62px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+
+.lifeservice ul {
+    width: 260px;
+}
+
+.lifeservice ul li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice ul li p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../images/icons.png) no-repeat;
+}
+
+.i1 {
+    background-position: -17px -16px;
+}
+
+.i2 {
+    background-position: -78px -16px;
+}
+
+.i3 {
+    background-position: -142px -18px;
+}
+
+.i4 {
+    background-position: -205px -16px;
+}
+
+.i5 {
+    background-position: -17px -16px;
+}
+
+.i6 {
+    background-position: -17px -16px;
+}
+
+.i7 {
+    background-position: -17px -16px;
+}
+
+.i8 {
+    background-position: -17px -16px;
+}
+
+.i9 {
+    background-position: -17px -16px;
+}
+
+.i10 {
+    background-position: -17px -16px;
+}
+
+.i11 {
+    background-position: -17px -16px;
+}
+
+.i12 {
+    background-position: -17px -16px;
+}
+
+
+/* 推荐模块 */
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+    margin-top: 10px;
+}
+
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #fff;
+}
+
+.recom-bd li {
+    float: left;
+    margin-top: 10px;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-bd .last {
+    border-right: 0;
+}
+
+.hobby {
+    margin-top: 20px;
+    height: 200px;
+}
+
+.hobby ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 30px 0;
+}
+
+.hobby ul .hobby-m {
+    float: right;
+}
+
+.hobby-m::after {
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.hobby .hobby2 {
+    height: 234px;
+    border: 1px solid #ccc;
+}
+
+.hobby .hobby2 ul li {
+    float: left;
+    width: 130px;
+}
+
+.hobby .hobby2 ul li img {
+    margin-top: 10px;
+}
+
+.hobby .hobby2 ul li a {
+    text-align: center;
+}
