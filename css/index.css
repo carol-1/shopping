@@ -257,7 +257,7 @@
 
 .hobby {
     margin-top: 20px;
-    height: 200px;
+    height: 270px;
 }
 
 .hobby ul li {
@@ -275,8 +275,11 @@
     font-family: "icomoon";
 }
 
+
+/* 猜你喜欢模块 */
+
 .hobby .hobby2 {
-    height: 234px;
+    height: 245px;
     border: 1px solid #ccc;
 }
 
@@ -287,8 +290,99 @@
 
 .hobby .hobby2 ul li img {
     margin-top: 10px;
+    height: 160px;
+    width: 130px;
 }
 
 .hobby .hobby2 ul li a {
     text-align: center;
+    font-size: 3px;
+}
+
+.hobby .hobby2 ul li a div {
+    margin-top: 10px;
+}
+
+.hobby .hobby2 ul li a .price {
+    float: left;
+    color: red;
+    font-size: 5px;
+}
+
+
+/* 家用电器模块 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    width: 89px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    float: left;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    padding-left: 12px
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px #ccc solid;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
 }
